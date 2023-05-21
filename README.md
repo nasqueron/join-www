@@ -13,8 +13,8 @@ navigate and access the relevant information they need to make an informed
 decision about applying for an internship or mentorship program with Nasqueron.
 
 The subdomain join.nasqueron.org implies that's an entry point for beings
-interested to join Nasqueron, so it can be evolved to serve as a portal
-for open source contributions and free culture project too.
+interested to join Nasqueron, so we also present mentoring possibilities
+and a welcome page for open source contributions.
 
 This is a static site built with Gulp, based on the ZURB Foundation template,
 updated and maintained as part of our Upsection effort.
@@ -44,3 +44,11 @@ http://localhost:8000
 To create compressed, production-ready assets, run `yarn run build`.
 
 For Nasqueron, this is done by a Jenkins CD task.
+
+## Licenses
+
+The site content is released under CC-BY license.
+
+The code is licensed under BSD-2-Clause license.
+
+Images are licensed as documented in the [colophon](src/pages/colophon.html).

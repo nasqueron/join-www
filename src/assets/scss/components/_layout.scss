@@ -1,0 +1,32 @@
+header {
+    padding-top: 1em;
+    margin-bottom: 2em;
+
+    ul {
+        li {
+            display: inline-block;
+            list-style: none;
+        }
+    }
+}
+
+section {
+    margin-top: 1em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    margin-bottom: 0.75em;
+}
+
+.cell-card {
+    width: 256px;
+}
+
+dt {
+  margin-top: 1em;
+}
