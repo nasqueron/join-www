@@ -1,0 +1,65 @@
+---
+title: FAQ
+---
+
+<div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+            <h1 class="text-center">FAQ :: Frequently Asked Questions</h1>
+            <h2>Questions table of contents</h2>
+            <ul>
+                <li><strong>Internship</strong>
+                    <ul>
+                        {{#each faq.faq_entries.internship}}
+                        <li><a href="#{{ this.slug }}">{{ this.question }}</a></li>
+                        {{/each}}
+                    </ul>
+                </li>
+                <li><strong>Mentoring</strong>
+                    <ul>
+                        {{#each faq.faq_entries.mentoring}}
+                        <li><a href="#{{ this.slug }}">{{ this.question }}</a></li>
+                        {{/each}}
+                    </ul>
+                </li>
+                <li><strong>Open-source contributions</strong>
+                    <ul>
+                        {{#each faq.faq_entries.contributors}}
+                        <li><a href="#{{ this.slug }}">{{ this.question }}</a></li>
+                        {{/each}}
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Internship</h2>
+            {{#each faq.faq_entries.internship}}
+            <div style="margin-bottom: 2.5em;">
+                <h3 id="{{ slug }}">{{ this.question }}</h3>
+                <p>{{ this.answer }}</p>
+                {{#if this.link}}
+                <a href="{{ this.link.target }}" class="button">{{ this.link.action }}</a>
+                {{/if}}
+            </div>
+            {{/each}}
+
+            <h2>Mentoring</h2>
+            {{#each faq.faq_entries.mentoring}}
+            <div style="margin-bottom: 2.5em;">
+                <h3 id="{{ slug }}">{{ this.question }}</h3>
+                <p>{{ this.answer }}</p>
+            </div>
+            {{/each}}
+
+            <h2>Open-source contributions</h2>
+            {{#each faq.faq_entries.contributors}}
+            <div style="margin-bottom: 2.5em;">
+                <h3 id="{{ slug }}">{{ this.question }}</h3>
+                <p>{{ this.answer }}</p>
+                {{#if this.link}}
+                <a href="{{ this.link.target }}" class="button">{{ this.link.action }}</a>
+                {{/if}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

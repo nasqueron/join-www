@@ -1,0 +1,244 @@
+faq_entries:
+  contributors:
+    - question: How can I start contributing code to Nasqueron projects?
+      slug: start
+      answer: |
+        To get started with contributing code, you can follow the step-by-step
+        guide provided in Agora, our wiki. It explains the process of cloning
+        the repository, making changes, submitting them for review,
+        and merging them into the main repository.
+      link:
+        action: How to contribute code
+        target: https://agora.nasqueron.org/How_to_contribute_code
+
+    - question: What is DevCentral and how do I access it?
+      slug: devcentral
+      answer: |
+        DevCentral is the instance of Phabricator used by Nasqueron for code
+        hosting, task management, and code reviews. You can access DevCentral
+        by visiting https://devcentral.nasqueron.org in your web browser.
+      link:
+        action: Visit DevCentral
+        target: https://devcentral.nasqueron.org
+
+    - question: How can I pick a project I can contribute to?
+      slug: choose-project
+      answer: |
+        We maintain a curated map of the projects you can contribute to.
+        They are organized by language. There are also sections for operations,
+        and links for design or security. Finally, we also have a list of tasks
+        suitable for newcomers.
+      link:
+        action: Contribute to projects
+        target: https://devcentral.nasqueron.org/home/menu/view/174/
+
+    - question: What are Monday office hours?
+      slug: office-hours
+      answer: |
+        Monday office hours are dedicated time slots during which members
+        of Nasqueron can meet to provide support, answer questions, and engage
+        in discussions related to the projects and activities. It's a great
+        opportunity to engage with the community, get code review or troubleshoot
+        an issue.
+      link:
+        action: Monday Office hours
+        target: https://agora.nasqueron.org/Monday_office_hours
+
+    - question: How should I format my commit messages?
+      slug: write-commit
+      answer: |
+        Commit messages should have a short, descriptive title followed by
+        explanatory paragraphs. Those paragraphs should give context,
+        explain the what and the why vs. how. Think yourself in 6 months
+        of time asking "why I committed that?", that's the question you
+        need to answer in the commit.
+      link:
+        action: How to write a Git commit message
+        target: https://cbea.ms/git-commit/
+
+    - question: Can I review my own changes?
+      slug: self-review
+      answer: |
+        Generally, self-review is discouraged. It is better to have another
+        team member review your changes to share knowledge about our codebase.
+
+    - question: How can I troubleshoot issues with Arcanist?
+      slug: arcanist-issues
+      answer: |
+        If you encounter any issues with Arcanist, the how to contribute code
+        documentation provides troubleshooting tips. It covers topics like
+        installing Arcanist on your local machine, using Nasqueron-maintained
+        patches, and adding recent PHPUnit support. We know Arcanist can be
+        troublesome, don't hesitate to ask, we'll try to figure out. Also,
+        Monday office hours can be used to share screen and do that together.
+
+    - question: What if I have further questions or need assistance?
+      slug: questions
+      answer: |
+        If you have any additional questions or need assistance with the code
+        contribution process, you can reach out to the Nasqueron community
+        for support. Use IRC, Monday office hours or ask on DevCentral.
+        We're available to help newcomers and provide guidance.
+
+  mentoring:
+    - question: What is the mentoring vision at Nasqueron?
+      slug: mentoring-vision
+      answer: |
+        The mentoring initiative at Nasqueron aims to foster personal
+        and professional growth, promote knowledge sharing, transmit values,
+        and enable a more meaningful open-source impact.
+
+    - question: Who can participate in the mentoring program?
+      slug: mentoring-who
+      answer: |
+        The mentoring program is open to anyone, both junior and experienced
+        professionals looking to contribute to open source and free culture
+        projects, expand their skill in software developments or operations.
+
+    - question: What can I expect from the mentoring program at Nasqueron?
+      slug: mentoring-what
+      answer: |
+        By participating in the mentoring program, you will have access
+        to diverse expertise in areas such as automation, system administration,
+        web development, and system development. Mentors will offer valuable insights,
+        guidance, and support as you navigate real-world projects, allowing you to
+        gain hands-on experience and enhance your technical and soft skills.
+
+  internship:
+    - question: What are the internship opportunities available at Nasqueron?
+      slug: what
+      answer: | 
+        Nasqueron offers internships in various areas, including software
+        development, design and UX, security, and devops/infrastructure.
+        Interns have the chance to contribute to exciting projects and gain
+        valuable experience in their chosen field.
+
+    - question: Who can apply for an internship at Nasqueron?
+      slug: who
+      answer: |
+        Nasqueron welcomes applications from individuals with a passion for
+        open-source software and a desire to learn and collaborate. Whether
+        you are a student looking for an internship as part of your studies
+        or an individual interested in volunteering inside our community,
+        you are encouraged to apply.
+
+    - question: What skills or qualifications are required for an internship at Nasqueron?
+      slug: prerequisite
+      answer: |
+        Nasqueron seeks individuals with a strong interest in the relevant
+        field, a willingness to learn, and the ability to work well in a
+        collaborative environment.
+        
+        While familiarity with programming languages, development tools,
+        or relevant technologies is advantageous, the internship can also
+        an opportunity to learn them and taking first steps.
+
+    - question: Is the internship a paid position?
+      slug: paid
+      answer: |
+        The internships are typically unpaid, as the community operates on a
+        volunteer basis. However, interns gain valuable experience, exposure
+        to real-world projects, and the opportunity to work with a diverse and
+        talented community of contributors.
+
+    - question: What is the duration of an internship at Nasqueron?
+      slug: duration
+      answer: |
+        The duration of internships at Nasqueron can vary depending on specific
+        arrangement and the availability of the intern. Internships can range
+        from a few weeks to several months, and the exact duration is typically
+        agreed upon between the intern and the community.
+
+    - question: As part of my studies, I need to do an internship for a specific duration.
+      slug: studies-format
+      answer: |
+        We're aware that within the framework of studies, the internship periods
+        are fixed and not very flexible. In that context, we strive to accommodate
+        the needs of students pursuing internships as part of their academic
+        requirements.
+
+        During the application process, please indicate the duration required
+        by your school or university, and we will do our best to accommodate
+        your needs.
+        
+        We value the opportunity to support your educational journey and provide
+        a valuable learning experience within the given time constraints.
+
+    - question: Are remote internships available at Nasqueron?
+      slug: remote
+      answer: |
+        Yes, Nasqueron offers remote internships, allowing individuals from anywhere
+         in the world to participate and contribute to the community's projects.
+
+    - question: How can I apply for an internship at Nasqueron?
+      slug: howto
+      answer: |
+        To apply for an internship at Nasqueron, you can fill out the internship
+        application form available on our website. The form will ask for your
+        contact information and areas of interest. Submitting the form will
+        initiate the application process.
+      link:
+        action: Apply for an internship
+        target: https://forms.nasqueron.org/nasqueron-join/contact/new
+
+    - question: What documents should I attach to the application form?
+      slug: application-form-docs
+      answer: |
+        We're interested by documents your school or university gave you
+        for the internship agreement. For example, a convention we need
+        to sign, or the internship requirements. If you're required to
+        submit a resume or application letter as part of the internship
+        process, please go ahead and do it. Beyond those two cases,
+        you aren't required to join any document.
+
+    - question: I've HTML links to submit instead of PDF to attach.
+      slug: application-form-links
+      answer: |
+        The application form contains a textarea just after the files drop zone.
+        You can put any links you would like to share there.
+
+    - question: What happens after I submit my internship application?
+      slug: next-steps
+      answer: |
+        After submitting your internship application, we will review your
+        information. If your application aligns with the available opportunities,
+        a member of the community will reach out to you for further discussion
+        and potential next steps.
+
+    - question: Can I propose my own project or idea for an internship at Nasqueron?
+      slug: project-idea
+      answer: |
+        Yes! Nasqueron encourages individuals to propose their own project
+        ideas or areas of interest for internships. If you have a specific
+        project in mind, you can mention it in your application form or discuss
+        it during the application process.
+        
+        Additionally, if there are specific fields or topics you would like
+        to gain experience in during the internship, please inform us.
+
+    - question: Will I receive mentorship and guidance during my internship at Nasqueron?
+      slug: mentoring
+      answer: |
+        Absolutely! Nasqueron values mentorship and provides guidance to interns
+        throughout their internship period. Experienced community members are
+        available to offer support, answer questions, and provide mentorship
+        to help interns succeed in their projects.
+
+    - question: What support or resources are available to interns during their internship?
+      slug: resources
+      answer: |
+        Nasqueron provides various resources and support to interns, including
+        access to relevant documentation, communication channels for collaboration,
+        and a welcoming community ready to assist and answer questions.
+        
+        We also have development servers, so you can have an environment with
+        all the needed tools already installed.
+
+    - question: Can an internship at Nasqueron lead to further opportunities or involvement with the community?
+      slug: empowerment
+      answer: |
+        Indeed. Nasqueron values the contributions of interns and encourages
+        ongoing involvement with the community. Interns who demonstrate dedication,
+        enthusiasm, and a strong work ethic may have the opportunity to continue
+        contributing to projects, becoming long-term community members,
+        or even pursuing leadership roles within Nasqueron.
