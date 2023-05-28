@@ -6,7 +6,9 @@ title: FAQ
     <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
             <h1 class="text-center">FAQ :: Frequently Asked Questions</h1>
-            <h2>Questions table of contents</h2>
+            <h2>Table of contents</h2>
+        </div>
+        <div class="large-6 cell">
             <ul>
                 <li><strong>Internship</strong>
                     <ul>
@@ -15,6 +17,10 @@ title: FAQ
                         {{/each}}
                     </ul>
                 </li>
+            </ul>
+        </div>
+        <div class="large-6 cell">
+            <ul>
                 <li><strong>Mentoring</strong>
                     <ul>
                         {{#each faq.faq_entries.mentoring}}
@@ -30,7 +36,8 @@ title: FAQ
                     </ul>
                 </li>
             </ul>
-
+        </div>
+        <div class="large-12 cell">
             <h2>Internship</h2>
             {{#each faq.faq_entries.internship}}
             <div style="margin-bottom: 2.5em;">
