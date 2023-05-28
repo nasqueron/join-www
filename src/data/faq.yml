@@ -1,5 +1,5 @@
 faq_entries:
-  contributors:
+  contributors: &faq_contributors
     - question: How can I start contributing code to Nasqueron projects?
       slug: start
       answer: |
@@ -80,7 +80,7 @@ faq_entries:
         for support. Use IRC, Monday office hours or ask on DevCentral.
         We're available to help newcomers and provide guidance.
 
-  mentoring:
+  mentoring: &faq_mentoring
     - question: What is the mentoring vision at Nasqueron?
       slug: mentoring-vision
       answer: |
@@ -104,7 +104,7 @@ faq_entries:
         guidance, and support as you navigate real-world projects, allowing you to
         gain hands-on experience and enhance your technical and soft skills.
 
-  internship:
+  internship: &faq_internship
     - question: What are the internship opportunities available at Nasqueron?
       slug: what
       answer: | 
@@ -242,3 +242,15 @@ faq_entries:
         enthusiasm, and a strong work ethic may have the opportunity to continue
         contributing to projects, becoming long-term community members,
         or even pursuing leadership roles within Nasqueron.
+
+faq_layout:
+  - sections:
+      - entries: *faq_internship
+        title: Internship
+
+  - sections:
+      - entries: *faq_mentoring
+        title: Mentoring
+
+      - entries: *faq_contributors
+        title: Open-source contributions
